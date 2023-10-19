@@ -18,7 +18,7 @@ struct Node * deleteAlternate(struct Node *head) {
         }
         else {
             struct Node *newNode = temp->next;
-            temp->next = temp->next->next;
+            temp->next = temp->next->next;          //  temp->next = newNode->next;
             free(newNode);
             temp = temp->next;
         }
