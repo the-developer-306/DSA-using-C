@@ -38,7 +38,6 @@ int main() {
   int count = 0;
   inOrderTrav(root, count);
 
-  cout << "The total number of nodes in the given complete binary tree are: "
-  <<count;
+  cout <<count;
   return 0;
 }
